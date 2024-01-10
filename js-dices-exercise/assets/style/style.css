@@ -6,15 +6,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins';
+    font-family: 'Tektur';
 }
 
+/* game style */
 body{
     background-color: #e3d2e5;
-}
-
-.myFont{
-    font-family: 'Tektur'; 
 }
 
 h1{
@@ -69,6 +66,7 @@ h1{
     display: none;
 }
 
+/* result style */
 .you-win{
     padding-block: 0.5em;
     text-align: center;
@@ -94,5 +92,15 @@ h1{
     font-weight: bold;
     margin-left: 2em;
     font-size: large;
+}
+
+.its-a-tie{
+    color: #a991ad;
+    background-color: #fef7ff;
+    padding-block: 0.5em;
+    text-align: center;
+    border-radius: 1em;
+    width: 30%;
+    margin: 1em auto;
 }
 

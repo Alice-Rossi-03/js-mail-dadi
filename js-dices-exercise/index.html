@@ -11,39 +11,48 @@
 <body>
     
     <main>
-        <h1 class="myFont"> 
+        <!-- page title -->
+        <h1> 
             Try To Win Against Me!
         </h1>
 
+        <!-- game container -->
         <div class="container">
-            <button>
+
+            <!-- play button -->
+            <button id="btnPlay">
                 Play
             </button>
 
+            <!-- moves container -->
             <div class="moves-container">
 
-                <div class="in-moves-container">
+                <!-- player moves container -->
+                <div>
                     <span class="moves">
                         Your Move: 
                     </span>
-                    <span class="myColor">
+                    <span id="playerMove" class="myColor">
 
                     </span>
                 </div>
-
-                <div class="in-moves-container">
+                
+                <!-- computer moves container -->
+                <div>
                     <span class="moves">
                         Computer's Move: 
                     </span>
-                    <span class="myColor">
-                        ciao 
+                    <span id="computerMove" class="myColor">
+                     
                     </span>
                 </div>
             </div>
 
+            <!-- popup result -->
             <div>
-                <div class="d-none myFont you-win">YOU WIN</div>
-                <div class="d-none myFont computer-win">YOU LOSE</div>
+                <div id="playerWin" class="d-none you-win">YOU WIN</div>
+                <div id="computerWin" class="d-none computer-win">YOU LOSE</div>
+                <div id="itsTie" class="d-none its-a-tie">IT'S A TIE</div>
             </div>
         </div>
     </main>
