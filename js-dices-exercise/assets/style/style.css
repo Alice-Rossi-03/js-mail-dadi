@@ -1,0 +1,98 @@
+/* import del font */
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@600&display=swap');
+
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body{
+    background-color: #e3d2e5;
+}
+
+.myFont{
+    font-family: 'Tektur'; 
+}
+
+h1{
+    margin-block: 1em;
+    padding-block: 0.5em;
+    text-align: center;
+    color: #55294e;
+    background-color: #a991ad;
+}
+
+.container{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.container button{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    font-weight: bold;
+    border: 0;
+    border-radius: 1em;
+    color: #55294e;
+    background-color: #a991ad;
+    margin-bottom: 2em;
+}
+
+.container button:hover{
+    background-color: rgba(169, 145, 173, 0.75);
+}
+
+.moves-container{
+    background-color: #fef7ff;
+    border-radius: 1em;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.moves{
+    background-color: #a991ad;
+    border-radius: 1em;
+    color: #fef7ff;
+    padding: 0.5em;
+    text-align: center;
+    width: 50%;
+}
+
+.d-none{
+    display: none;
+}
+
+.you-win{
+    padding-block: 0.5em;
+    text-align: center;
+    color: #55294e;
+    background-color: #a991ad;
+    border-radius: 1em;
+    width: 30%;
+    margin: 1em auto;
+}
+
+.computer-win{
+    padding-block: 0.5em;
+    text-align: center;
+    background-color: #55294e;
+    color: #a991ad;
+    border-radius: 1em;
+    width: 30%;
+    margin: 1em auto;
+}
+
+.myColor{
+    color: #a991ad;
+    font-weight: bold;
+    margin-left: 2em;
+    font-size: large;
+}
+
