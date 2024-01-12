@@ -26,11 +26,9 @@ btnCheck.addEventListener("click", function(){
     let emailValue = writtenEmail.value 
 
     for (let i = 0; i < emailAllowed.length; i++){
-        if(emailValue === "pippo@gmail.com"){
+        if(emailValue === emailAllowed[i]){
             checkingEmail = true 
-        } else if (emailValue === "pluto@gmail.com"){
-            checkingEmail = true 
-        } 
+        }
     }
     
     if(checkingEmail==true){
